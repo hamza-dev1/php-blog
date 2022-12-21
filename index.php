@@ -1,6 +1,6 @@
 <?php
 
-include 'partials/header.php';
+include 'views/partials/header.php';
 
 ?>
 
@@ -59,6 +59,6 @@ include 'partials/header.php';
 
 <?php
 
-include 'partials/footer.php';
+include 'views/partials/footer.php';
 
 ?>
