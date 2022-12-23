@@ -30,7 +30,7 @@ require '../config/constants.php';
         <div class="text-sm sm:text-base text-gray-600 my-4">Create new account.</div>
 
         <div class="rounded-md bg-white w-full max-w-sm sm:max-w-md border border-gray-200 shadow-md px-4 py-6 sm:p-8">
-            <form action="<?=ROOT_URL?>auth/register.php" enctype="multipart/form-data" method="post">
+            <form action="<?= ROOT_URL ?>auth/register.php" enctype="multipart/form-data" method="post">
                 <div class="flex flex-col mb-4">
                     <label for="name" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">Name:</label>
                     <div class="relative">
@@ -89,8 +89,8 @@ require '../config/constants.php';
                         <div class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
                             <span>
                                 <svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                                <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                            </svg>
+                                    <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
                             </span>
                         </div>
 
