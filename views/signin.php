@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +26,18 @@
         <div class="text-sm sm:text-base text-gray-600 my-4">Log in to your account.</div>
 
         <div class="rounded-md bg-white w-full max-w-sm sm:max-w-md border border-gray-200 shadow-md px-4 py-6 sm:p-8">
+        <div class="mb-5">
+            <?php
+                if (isset($_SESSION['register_success'])) {
+            ?>
+                <div class="text-2xl w-full bg-green-500">
+                    Registration successfully.
+                </div>
+            <?php
+                }
+            ?>
+
+        </div>
             <form action="#">
                 <div class="flex flex-col mb-6">
                     <label for="email" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">E-Mail Address:</label>
@@ -86,3 +99,5 @@
 </body>
 
 </html>
+<?php
+?>
